@@ -7,6 +7,10 @@
   vertical-align: -0.15em;
 }
 
+[data-mode="dark"] body {
+  background: transparent !important;
+}
+
 [data-mode="dark"] body::before {
   content: '';
   position: fixed;
