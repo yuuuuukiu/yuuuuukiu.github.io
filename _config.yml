@@ -14,12 +14,12 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Yuuuuukiu # the main title
+title: Yuki-U # the main title
 
-tagline: 记录技术、学习与生活 # it will display as the subtitle
+tagline: 一马当先，万马无光。 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Yuuuuukiu 的个人博客，记录技术、学习与生活。
+  Ciallo～ (∠・ω< )⌒★
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -28,14 +28,11 @@ url: "https://yuuuuukiu.github.io"
 github:
   username: yuuuuukiu # change to your GitHub username
 
-twitter:
-  username: # change to your Twitter username
-
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Yuuuuukiu
-  email: # change to your email address
+  name: Yuki-U
+  email: csp1502407087@gmail.com # change to your email address
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     # The first element serves as the copyright owner's link
@@ -98,7 +95,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/images/avatar/yuki_o.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

@@ -22,9 +22,24 @@ package-lock.json
 !.vscode/extensions.json
 !.vscode/tasks.json
 
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor backup & temp files
+*.swp
+*.swo
+*~
+*.orig
+
 # Misc
 _sass/vendors
 assets/js/dist
 
 # Local secrets
 /github token.txt
+
+# Temp working directories
+.codex-work/
+.codex*

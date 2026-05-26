@@ -3,16 +3,21 @@
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+- type: bilibili
+  icon: '/assets/img/bilibili.svg'
+  url: 'https://space.bilibili.com/630724716'
+
+- type: telegram
+  icon: "fab fa-telegram"
+  url: 'https://t.me/yuuuuukiu'
+
+#- type: twitter
+#  icon: "fa-brands fa-x-twitter"
 
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
