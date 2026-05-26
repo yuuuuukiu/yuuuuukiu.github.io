@@ -11,4 +11,5 @@ platforms :windows, :jruby do
   gem "tzinfo-data"
 end
 
-gem "wdm", "~> 0.2.0", :platforms => [:windows]
+# wdm is broken with Ruby 3.4 + Windows; file watching falls back to polling
+# gem "wdm", "~> 0.2.0", :platforms => [:windows]

@@ -6,3 +6,13 @@
   height: 1.15em;
   vertical-align: -0.15em;
 }
+
+[data-mode="dark"] body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url('/assets/img/bg-anime.gif') center / cover no-repeat;
+}
