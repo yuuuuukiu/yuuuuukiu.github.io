@@ -6,51 +6,41 @@
   vertical-align: -0.15em;
 }
 
-html {
-  background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
-    url('/assets/img/sakura%20miku.jpg') center / cover fixed no-repeat;
-}
-
 body {
-  background: transparent !important;
-}
-
-[data-mode="dark"] html {
   background:
-    linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url('/assets/img/afternoon%20miku.jpg') center / cover fixed no-repeat;
+    linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)),
+    url('/assets/img/sakura%20miku.jpg') center / cover fixed no-repeat !important;
 }
 
 [data-mode="dark"] body {
-  background: transparent !important;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url('/assets/img/afternoon%20miku.jpg') center / cover fixed no-repeat !important;
 }
 
 #sidebar {
-  background: rgba(255, 255, 255, 0.2) !important;
+  background: rgba(255, 255, 255, 0.25) !important;
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
 }
 
 [data-mode="dark"] #sidebar {
-  background: rgba(0, 0, 0, 0.3) !important;
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  background: rgba(0, 0, 0, 0.35) !important;
 }
 
 #topbar-wrapper {
-  background: rgba(255, 255, 255, 0.2) !important;
+  background: rgba(255, 255, 255, 0.25) !important;
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
 }
 
 [data-mode="dark"] #topbar-wrapper {
-  background: rgba(0, 0, 0, 0.3) !important;
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  background: rgba(0, 0, 0, 0.35) !important;
 }
 
 #main-wrapper,
-#core-wrapper {
+#main-wrapper > .container,
+footer,
+#tail-wrapper {
   background: transparent !important;
 }
