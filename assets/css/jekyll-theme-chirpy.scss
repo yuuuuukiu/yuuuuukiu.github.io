@@ -1,4 +1,19 @@
+---
+---
+
 @import 'jekyll-theme-chirpy';
+
+:root {
+  --main-bg: transparent;
+  --sidebar-bg: rgba(255, 255, 255, 0.25);
+  --topbar-bg: rgba(255, 255, 255, 0.25);
+}
+
+[data-mode="dark"] {
+  --main-bg: transparent;
+  --sidebar-bg: rgba(0, 0, 0, 0.35);
+  --topbar-bg: rgba(0, 0, 0, 0.35);
+}
 
 .contact-icon-custom {
   width: 1.15em;
@@ -9,20 +24,28 @@
 #bg-layer {
   position: fixed;
   inset: 0;
-  z-index: -1;
+  z-index: 0;
+  pointer-events: none;
   background:
     linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)),
-    url('/assets/img/sakura%20miku.jpg') center / cover no-repeat;
+    url('../img/sakura%20miku.jpg') center / cover no-repeat;
 }
 
 [data-mode="dark"] #bg-layer {
   background:
     linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url('/assets/img/afternoon%20miku.jpg') center / cover no-repeat;
+    url('../img/afternoon%20miku.jpg') center / cover no-repeat;
 }
 
+html,
 body {
   background: transparent !important;
+}
+
+#sidebar,
+#main-wrapper {
+  position: relative;
+  z-index: 1;
 }
 
 #sidebar {
