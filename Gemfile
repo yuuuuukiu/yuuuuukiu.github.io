@@ -2,8 +2,6 @@
 
 source "https://rubygems.org"
 
-gem "bigdecimal", "~> 3.1"
-gem "json", "~> 2.7"
 gem "jekyll-theme-chirpy", "~> 7.5"
 
 gem "html-proofer", "~> 5.0", group: :test
